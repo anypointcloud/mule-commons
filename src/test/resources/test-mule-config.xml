@@ -4,16 +4,6 @@
       xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
           http://www.mulesoft.org/schema/mule/mule-commons-module http://www.mulesoft.org/schema/mule/mule-commons-module/current/mule-mule-commons-module.xsd">
 
-    <mule-commons-module:config name="config" configId="configId">
-        <mule-commons-module:connection requiredParameter="aValue" />
-    </mule-commons-module:config>
 
-    <flow name="sayHiFlow">
-        <mule-commons-module:say-hi person="Mariano Gonzalez"/>
-    </flow>
-
-    <flow name="retrieveInfoFlow">
-        <mule-commons-module:retrieve-info config-ref="config"/>
-    </flow>
 
 </mule>

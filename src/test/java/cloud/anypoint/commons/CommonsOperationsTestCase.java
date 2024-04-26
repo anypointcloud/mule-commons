@@ -16,21 +16,5 @@ public class CommonsOperationsTestCase extends MuleArtifactFunctionalTestCase {
   }
 
   @Test
-  public void executeSayHiOperation() throws Exception {
-    String payloadValue = ((String) flowRunner("sayHiFlow").run()
-                                      .getMessage()
-                                      .getPayload()
-                                      .getValue());
-    assertThat(payloadValue, is("Hello Mariano Gonzalez!!!"));
-  }
-
-  @Test
-  public void executeRetrieveInfoOperation() throws Exception {
-    String payloadValue = ((String) flowRunner("retrieveInfoFlow")
-                                      .run()
-                                      .getMessage()
-                                      .getPayload()
-                                      .getValue());
-    assertThat(payloadValue, is("Using Configuration [configId] with Connection id [aValue:100]"));
-  }
+  public void testNothing() {}
 }

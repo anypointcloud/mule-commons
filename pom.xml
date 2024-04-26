@@ -3,8 +3,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>cloud.anypoint</groupId>
-    <artifactId>mule-commons</artifactId>
-    <version>0.0.0-SNAPSHOT</version>
+    <artifactId>mule-commons-module</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>mule-extension</packaging>
     <name>Mule Commons Module</name>
     <description>Extras for Mule Development</description>
